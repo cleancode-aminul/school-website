@@ -1,0 +1,675 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+:root{
+    background-color: var(green);
+}
+.top-header{
+    min-width: 100%;
+    position: fixed;
+}
+
+.nav-image{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px;
+    background-color: #e9fad8;
+    
+}
+ul{
+    margin-right: -60px;
+    
+}
+ul li{
+    display: inline-block;
+    margin: 0 25px;
+}
+ul li a{
+    color: black;
+    font-size: 20px;
+    font-weight: 550;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+ul li a:hover{
+    color: rgb(50, 48, 172);
+    background: transparent;
+   
+}
+.sign-in-btn{
+    font-size: 20px;
+    text-decoration: none;
+    padding-right: 10px;
+    background-color: rgb(42, 163, 42);
+    color: aliceblue;
+    border-radius: 20px;
+    padding: 8px 20px;
+    transition: 0.3s ease-in-out;
+}
+.sign-in-btn:hover{
+    background-color: chocolate;
+  
+   
+
+}
+.nav-image i{
+    font-size: 25px;
+    color:black;
+    padding: 0 20px;
+}
+
+/* ************body section************** */
+.hero-section{
+    background-color:#e9fad8;
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 180px 115px;
+    min-width: 100%;
+    height: 620px;
+}
+.paragraph h3{
+    color: rgb(49, 35, 245);
+    font-size: 25px;
+    margin-left: -178px;
+}
+.paragraph{
+    margin-top: 70px;
+}
+.learn-fun{
+    color: #047047;
+}
+.paragraph p{
+    margin-top:8px;
+    font-size: 18px;
+    /* font-family:Arial, Helvetica, sans-serif; */
+    color:rgb(145, 33, 130);
+    margin-bottom: 30px;
+    
+}
+.paragraph h2{
+    font-size: 35px;
+    font-family:'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+/* --------------main purpose-------------- */
+.feature{
+    background-color: white;
+    height: 50vh;
+    padding: 0 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* margin-top: 100px; */
+
+  
+}
+
+.main-purpose h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+   border-bottom: 2px red;
+   color: #01b671;
+}
+.hr{
+    width: 210px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 570px;
+   
+}
+
+.boxes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: rgb(248, 247, 245); */
+    border: 3px solid white;
+    border-radius: 15px;
+    padding: 10px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 5px 16px #bdbdbd;
+}
+
+.boxes:hover{
+    box-shadow: 0 12px 18px #4d4949;
+    
+
+}
+
+.boxes h2{
+    font-size: 20px;
+}
+.boxes p{
+    font-size: 18px;
+}
+
+
+
+
+/* *******marquee option********** */
+.marquee{
+    background-color:blanchedalmond;
+    position: sticky;
+    z-index: -1000;
+}
+.marquee marquee{
+    color: black;
+    padding: 6px ;
+    font-size: 22px;
+}
+.marquee-paragraph span{
+    color: green;
+}
+
+/* **************Course section***************** */
+.course-header h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.course-hr{
+    width: 220px;
+    margin-left: 565px;
+    margin-bottom: 50px;
+}
+
+
+.online-coures{
+    display: flex;
+    padding:30px 110px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    
+    
+}
+.container:hover{
+    box-shadow: 0 4px 15px #888686;
+}
+.container {
+
+   border: 2px solid #bdbdbd;
+    height: 420px;
+    padding: 20px;
+    border-radius: 10px;
+    align-content: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 2px 5px #888686;
+  
+
+}
+.container img{
+    background-color:#faebd7;
+    border-radius: 12px;
+    padding: 5px 10px;
+ 
+}
+.container h2,h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+.sign-in-buy{
+    background-color: #01b671;
+    padding: 8px 15px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 35px;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+.sign-in-buy:hover{
+    background-color: #09e240;
+    color: black;
+}
+
+.container a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container h3{
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+/* *************this is used for testimonial ********************* */
+.name h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    color: #01b671;
+    
+    
+}
+.testimonial-header{
+    width: 180px;
+    margin-left: 585px;
+  
+}
+.banner-image img{
+    border-radius: 50%;
+    background-color: #01b671;
+   
+}
+
+.banner-section{
+    margin-top: 50px;
+    padding: 0 160px;
+    background-color: #faebd7;
+    min-width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 50px;
+    margin-left: 110px;
+    margin-right: 110px;
+    border-radius: 15px;
+}
+.tesimonial p{
+    margin-left: 40px;
+    text-align: justify;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+/* ---------------------footer-section------------------------- */
+.footer{
+    background-color: #01b671;
+    margin: 70px 1px;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.links p{
+    color: white;
+    font-size: 20px;
+}
+.logo-section{
+    display: flex;
+    margin-top: 15px;
+    color: black;
+    font-size: 16px;
+    
+}
+.logo-section p{
+    margin-left: 5px;
+}
+.main-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 15px;
+    color: white;
+}
+
+.course-name{
+    margin-top: -57px;
+    font-size: 16px;
+    justify-content: space-evenly;
+    padding: 10px 100px;
+}
+.course-name h2{
+    font-size: 16px;
+   font-family: 'Times New Roman', Times, serif;
+   color:black;
+  line-height: 2;
+}
+.course-name p{
+    /* margin: 15px 20px; */
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+  margin-top: 50px;
+}
+.end{
+    margin-top: -100px;
+}
+.end p{
+    padding: -3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+.logo-section a {
+    text-decoration: none;
+  
+}
+.logo-section p{
+    color: black;
+}
+/* ***********************************************Signup form sector************************************************ */
+.artificial-body{
+    background-image: linear-gradient(rgba(0,0,100,0.8),rgba(0,0,100,0.8)),url(images/510.jpg);
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+
+}
+.container-form{
+    position: relative;
+    max-width: 900px;
+    width: 100%;
+    background-color:#f6fcf9;
+    border: 6px;
+    padding: 30px;
+    margin: 0 15px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+.container-form header{
+    font-size: 22px;
+    color: rgb(53, 53, 247);
+    font-weight: 600;
+    margin-left: 50px;
+    background-color: #01b671;
+    margin-left: -29.8px;
+    margin-right: -29.8px;
+    height: 50px;
+    margin-top:-30px;
+    padding: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.container-form form{
+    position: relative;
+    min-height: 490px;
+    background-color: #fff;
+    margin-top: 16px;
+}
+.container-form .details{
+    margin-top: 10px;
+}
+.container-form .title{
+    
+    font-size:16px;
+    font-weight: 500;
+    margin: 60px 0;
+}
+.container-form .fields{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1 30px;
+  
+}
+.input-field{
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 3 -5px);
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 30px;
+    padding: 5px 10px;
+    /* align-items: center; */
+  
+    
+}
+.input-field label{
+    color:blue;
+    font-size: 17px;
+}
+.input-field input{
+    height: 27px;
+    margin: 5px 0;
+    font-size: 14px;
+    outline: none;
+    border: 2px solid rgb(155, 154, 154);
+    padding: 0 1px;
+    border-radius: 4px;
+}
+.input-field input:is(focus, :valid){
+    box-shadow: 0 3px 6px rgba(0,0,0,0.13);
+}
+
+
+.container-form .title{
+    font-size: 20px;
+}
+.input-field input[type="date"]:valid{
+    color: #000;
+}
+/* ************************************************************** */
+#Input-field #country{
+        height: 27px;
+        width: 176px;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.13);
+        border: 2px solid rgb(155, 154, 154);
+        margin-top: 3px;
+        border-radius: 5px;
+}
+#input-field-1{
+    margin-right: 40px;
+}
+
+#input-field-1 label{
+    color:#0000FF;
+    font-weight: 600;
+    font-size: 18px;
+}
+#input-field-1 input{
+    height: 27px;
+        width: 177px;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.13);
+        border: 2px solid rgb(155, 154, 154);
+        margin-top: 3px;
+        border-radius: 5px;
+        font-size: 16px;
+        color: #777474;
+        padding: 2px 5px;
+}
+/* ***************************************************** */
+#email-content{
+    margin-left: 40px;
+}
+
+/* --------------------------------------------------- */
+#Input-field-100{
+    margin-left:69px;
+    padding: 8px 0;
+}
+#country{
+    font-size: 14px;
+    color: black;
+}
+.country-2{
+    height: 27px;
+    width: 177px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.13);
+    border: 2px solid rgb(155, 154, 154);
+    margin-top: 3px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: black;
+    padding: 2px 5px;
+}
+/* -------------------------------details-school--------------------------------------- */
+.input-field-info label{
+    color:blue;
+    font-size: 17px;
+    font-weight: 600;
+}
+.input-field-info input{
+    height: 27px;
+    margin: 5px 0;
+    font-size: 14px;
+    outline: none;
+    border: 2px solid rgb(155, 154, 154);
+    padding: 0 1px;
+    border-radius: 4px;
+}
+.input-field-infoinput:is(focus, :valid){
+    box-shadow: 0 3px 6px rgba(0,0,0,0.13);
+}
+.input-field-info{
+    margin-left: 92px;
+    
+}
+/* *********************************** */
+.input-field-info-mobile label{
+    color:blue;
+    font-size: 17px;
+    font-weight: 600;
+}
+.input-field-info-mobile input{
+    height: 27px;
+    margin: 5px 0;
+    font-size: 14px;
+    outline: none;
+    border: 2px solid rgb(155, 154, 154);
+    padding: 0 1px;
+    border-radius: 4px;
+}
+.input-field-info-mobileinput:is(focus, :valid){
+    box-shadow: 0 3px 6px rgba(0,0,0,0.13);
+}
+.input-field-info-mobile{
+    margin-left: 96px;
+    
+}
+/* --------------------------------submit button-------------------------------------------- */
+.submit{
+    display:flex;
+    background-color:#01b671;
+    border: 2px solid blue;
+    border-radius: 6px;
+    padding: 7px 66px;
+    margin: 25px 38px;
+    font-size: 16px;
+    font-weight: bolder;
+    color: white;
+    transition: 0.3s all;
+}
+.submit:hover{
+    background-color: transparent;
+    color: #01b671;
+    border: 2px solid #09e240;
+    transition: ease-in;
+}
+#sub-btn{
+    margin-left: 90px;
+}
+
+/* ************_-----------************************--login-form-----------------------------************************* */
+.main-login-form{
+    background-image: linear-gradient(rgba(0,0,100,0.8),rgba(0,0,100,0.8)),url(images/510.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-width: 990px;
+    height: 100vh;
+    background-repeat: no-repeat;
+    position: fixed;
+
+}
+.main-background{
+    background-color: #fff;
+    display: flex;
+    margin: 100px
+    525px;
+    padding: 30px 0;
+    justify-content: center;
+    width: 320px;
+    height: 500px;
+    border: 1px solid #047047;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px #bdbdbd;
+}
+.log-in-form p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: #01b671;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    ;
+    font-weight: 500;
+}
+
+
+.log-in-form h1{
+    background-color: #000;
+    height: 3px;
+    left: 0;
+    bottom:-3px;
+    
+}
+
+.main-form{
+    margin-top: 50px;
+}
+.form-section label{
+    font-size: 20px;
+    font-weight: 550;
+    color: green;
+}
+
+.form-section input{
+    height: 25px;
+    /* outline: navajowhite; */
+    box-shadow: 0 3px 6px rgba(0,0,0,0.13);
+    border: 2px solid rgb(155, 154, 154);
+    
+}
+#checkbox-size{
+    margin-top: 60p;
+}
+.login-bTn{
+    width: 173px;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    background-color: #01b671;
+    border: 2px solid black ;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.2s all;
+}
+.login-bTn:hover{
+    background-color: transparent;
+    color: black;
+}
+/* ***************************_-------------------------____________
+ */
+ .login-author{
+    background-color: #01b671;
+    border-radius: 5px;
+    border: 2px solid blue;
+    width: 173px;
+    height:35px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+   padding: 0 0;
+    font-weight: bolder;
+    transition: 0.3s all;
+
+ }
+
+
+
